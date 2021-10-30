@@ -178,6 +178,7 @@
                 }
 
                 $(this).next().next().empty();
+                $(this).next().next().append("<option value=0 selected disabled>시,군,구</option>");
                 for (var district in districts) {
                     var pair = districts[district].split("|");
                     $(this).next().next().append("<option value="+pair[0]+">"+pair[1]+"</option>");
