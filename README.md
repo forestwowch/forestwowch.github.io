@@ -1,1 +1,1 @@
-# forestwowch.github.io
+관심지역 선택하는 부분에서 해당 지역을 지역명 대신 숫자값으로 Member 테이블에 저장하는 예시
